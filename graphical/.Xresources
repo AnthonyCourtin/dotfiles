@@ -1,0 +1,98 @@
+! Colors
+
+! Main components colors
+! special
+*.foreground:   #cee6e9
+*.background:   #00436a
+*.cursorColor:  #cee6e9	
+
+! black
+*.color0:       #0c718c
+*.color8:       #5a8493
+
+! red
+*.color1:       #ea2420
+*.color9:       #ea2420
+
+! green
+*.color2:       #459ad1
+*.color10:      #1c9b00
+
+! yellow
+*.color3:       #ffc30a
+*.color11:      #ffc30a
+
+! blue
+*.color4:       #59c1c1
+*.color12:      #59c1c1
+
+! magenta
+*.color5:       #6c71c4
+*.color13:      #6c71c4
+
+! cyan
+*.color6:       #b2d7da
+*.color14:      #10e8d7
+
+! white
+*.color7:       #93a1a1
+*.color15:      #fff8e8
+
+! Urxvt
+URxvt.background:                 [90]#003452
+URxvt.termName:                   rxvt-256color
+URxvt.internalBorder:             20
+URxvt.font:                       xft:Inconsolata Nerd Font Mono:size=13
+URxvt.geometry:                   80x20
+URxvt.depth:                      32
+URxvt.scrollBar:                  false
+URxvt.mouseWheelScrollPage:       false
+URxvt.cursorBlink:                true
+URxvt.saveLines:                  50000
+URxvt.fading:                     05
+URxvt.intensityStyles:            false
+URxvt.iso14755:                   false
+URxvt.iso14755_52:                false
+URxvt.loginShell:                 true
+URxvt.perl-ext-common:            keyboard-select
+URxvt.matcher.button:             1
+URxvt.matcher.rend.0:             Uline Bold fg5
+URxvt.scrollTtyKeypress:          true
+URxvt.scrollTtyOutput:            false
+URxvt.scrollWithBuffer:           false
+URxvt.skipScroll:                 true
+URxvt.urgentOnBell:               true
+URxvt.url-launcher:               /usr/bin/google-chrome
+URxvt.visualBell:                 false
+URxvt.keysym.M-g:                 perl:keyboard-select:activate
+URxvt.keyboard-select.clipboard:  true
+
+! Rofi
+
+! Enable the extended coloring options
+rofi.color-enabled: true
+
+! Property Name     BG      Border  Separator
+rofi.color-window:  #003c5e, #4ab2d4, #4ab2d4
+
+! Property Name     BG      FG      BG-alt  Head-BG Head-FG
+rofi.color-normal:  #003c5e, #cee6e9, #003c5e, #4ab2d4, #003c5e
+rofi.color-active:  #003c5e, #cee6e9, #003c5e, #4ab2d4, #003c5e
+rofi.color-urgent:  #003c5e, #cee6e9, #003c5e, #4ab2d4, #003c5e
+
+rofi.separator-style:  solid
+rofi.terminal:         urxvt
+rofi.sidebar-mode:     false
+rofi.font:             inconsolata 13
+rofi.fixed-num-lines:  true
+rofi.hide-scrollbar:   true
+rofi.opacity:          100
+rofi.line-margin:      10
+rofi.lines:            8
+rofi.columns:          1
+rofi.bw:               2
+rofi.eh:               1
+rofi.location:         0
+rofi.padding:          28
+rofi.width:            35
+
